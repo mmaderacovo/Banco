@@ -18,13 +18,17 @@ public class Main {
         System.out.println("Dinero de Angelica= "+ mariaAngelica.getMoney());
         System.out.println("Dinero del banco= " + Banco.inicialMoney);
 
-       /* System.out.println("Nombre del Banco " + bankSantander.getName());
+        System.out.println("Nombre del Banco " + bankSantander.getName());
         System.out.println("Dinero disponible = " + bankSantander.getMoney());
         System.out.println("Dinero comun " + Banco.inicialMoney);
         Banco.inicialMoney = 3000;
         System.out.println("Dinero comun " + Banco.inicialMoney);
         System.out.println("Nombre del Banco " + bankItau.getName());
-        System.out.println("Dinero disponible = " + bankItau.getMoney());*/
+        System.out.println("Dinero disponible = " + bankItau.getMoney());
+
+        //Ejemplo override
+        Renault renault = new Renault();
+        renault.pitar();
 
     }
 }
