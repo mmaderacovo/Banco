@@ -27,10 +27,12 @@ public class Main {
         System.out.println("Dinero disponible = " + bankItau.getMoney());*/
 
         //Ejemplo override
-        Auto renault = new Renault();
+        PagoAuto renault = new Renault();
         Auto bmw = new Bmw();
-        renault.pitar();
+        renault.efectivo();
         bmw.pitar();
+
+
 
     }
 }
